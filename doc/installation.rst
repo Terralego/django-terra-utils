@@ -29,5 +29,5 @@ With git
 ::
 
     git clone https://github.com/Terralego/django-terra-utils.git
-    cd terra.backend.crud
+    cd django-terra-utils
     python setup.py install
