@@ -2,7 +2,7 @@ from io import StringIO
 
 from django.test import TestCase
 
-from terracommon.core.helpers import Choices, CustomCsvBuilder
+from terra_utils.helpers import Choices, CustomCsvBuilder
 
 
 class CSVTestCase(TestCase):
