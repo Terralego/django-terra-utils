@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'test_terra_utils.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'USER': 'travis_ci_test',
         'NAME': 'travis_ci_test',
         'PASSWORD': 'travis_ci_test',
