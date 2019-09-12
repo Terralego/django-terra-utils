@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     install_requires=[
-        'django>=2.1',
+        'django>=2.1,<3.0',
         'djangorestframework>=3.8',
         "django-url-filter>=0.3,<0.4",
         "coreapi",
