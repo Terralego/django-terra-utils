@@ -24,11 +24,11 @@ class JSONFieldOrderingFilter(OrderingFilter):
                 model_field = json_nested.pop(0)
                 descending = False
 
-                if (model_field in ordering or
-                    not self.remove_invalid_fields(queryset,
-                                                   [model_field, ],
-                                                   view,
-                                                   request)):
+                if (model_field in ordering
+                        or not self.remove_invalid_fields(queryset,
+                                                          [model_field, ],
+                                                          view,
+                                                          request)):
                     # The model_field must be an authorized field
                     continue
 

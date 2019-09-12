@@ -20,10 +20,10 @@ class CSVTestCase(TestCase):
                             "third": {
                                 "events": 1,
                                 "participants": 101}
-                                   }
-                              },
-                     "name": "Name1"
-                     },
+                        }
+                    },
+                        "name": "Name1"
+                    },
                     {"data": {
                         "test0": {
                             "fourth": {
@@ -106,6 +106,7 @@ class ChoicesTests(TestCase):
     """
     Testing the choices
     """
+
     def test_simple_choice(self):
         self.assertEqual(self.MY_CHOICES.CHOICES,
                          ((1, "One for the money"),
@@ -182,7 +183,7 @@ class ChoicesTests(TestCase):
         )
         MY_CHOICES.add_choices("ODD",
                                ('ONE', 1, 'Un'),
-                               ('THREE', 3, 'Trois'),)
+                               ('THREE', 3, 'Trois'), )
         self.assertEqual(MY_CHOICES.CHOICES, ((2, 'Deux'), (4, 'Quatre'),
                                               (1, 'Un'), (3, 'Trois')))
         self.assertEqual(MY_CHOICES.ODD, ((1, 'Un'), (3, 'Trois')))
