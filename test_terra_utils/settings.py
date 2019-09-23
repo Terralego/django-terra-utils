@@ -133,6 +133,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 100,
 }
 
+# TODO: move this after terracommon.accounts split
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': 3600
 }

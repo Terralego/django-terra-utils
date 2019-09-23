@@ -11,6 +11,6 @@ class SettingsViewTestCase(TestCase):
         response = self.client.get(reverse('terra_utils:settings'))
         self.assertEqual(200, response.status_code)
         self.assertListEqual(
-            ['states', 'jwt_delta', ],
+            ['jwt_delta', ],
             list(response.json())
         )
