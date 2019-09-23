@@ -132,3 +132,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'terra_utils.pagination.PagePagination',
     'PAGE_SIZE': 100,
 }
+
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': 3600
+}
