@@ -1,18 +1,19 @@
 from django import template
-from django.conf import settings
 from django.utils.html import mark_safe
+
+from .. import settings as app_settings
 
 register = template.Library()
 
 
 @register.simple_tag
 def front_url():
-    return mark_safe(settings.FRONT_URL)
+    return mark_safe(app_settings.FRONT_URL)
 
 
 @register.simple_tag
 def hostname():
-    return mark_safe(settings.HOSTNAME)
+    return mark_safe(app_settings.HOSTNAME)
 
 
 @register.filter
