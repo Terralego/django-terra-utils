@@ -21,3 +21,5 @@ STATES.add_subset('MANUAL', (
 STATES = getattr(settings, 'STATES', STATES)
 
 TERRA_APPLIANCE_SETTINGS = getattr(settings, 'TERRA_APPLIANCE_SETTINGS', {})
+FRONT_URL = getattr(settings, 'FRONT_URL', '')
+HOSTNAME = getattr(settings, 'HOSTNAME', '')

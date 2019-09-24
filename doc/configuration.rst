@@ -39,3 +39,6 @@ Settings should be overided  with TERRA_CRUD settings in your project settings f
         "favicon": "data:image/png;##########################################",
         # "landing_module": "CRUD",  optional, defined a landing module instead of select module landing page
     }
+
+    FRONT_URL = 'http://localhost:3000'
+    HOSTNAME = 'http://localhost:8000'
