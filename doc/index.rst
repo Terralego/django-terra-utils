@@ -15,8 +15,11 @@ terra_utils
 
 Common utils app for terralego
 
+Provide frontend required settings
+
 .. toctree::
 
    installation
    configuration
    use
+   commands
