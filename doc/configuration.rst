@@ -20,10 +20,22 @@ In your project :
 
 Waiting for settings definition directly in models.
 
-Settings should be overrided  with TERRA_CRUD settings in your project settings file:
+Settings should be overided  with TERRA_CRUD settings in your project settings file:
 
 ::
 
-    ...
-    STATES = Choices()
-    ...
+    TERRA_APPLIANCE_SETTINGS = {
+        "title": "APP TITLE",
+        # temp theme settings
+        "theme": {
+            "logo": {
+                # base64
+                "src": "data:image/png;##########################################",
+                "alt": "ALT LOGO TEXT"
+            },
+        },
+        # favicon settings
+        # base64
+        "favicon": "data:image/png;##########################################",
+        # "landing_module": "CRUD",  optional, defined a landing module instead of select module landing page
+    }
