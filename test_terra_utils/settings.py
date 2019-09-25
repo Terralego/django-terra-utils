@@ -36,13 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.gis',
     'django.contrib.staticfiles',
     'terra_utils',
     'terra_utils.tests.test_app',
 ]
-
-INTERNAL_GEOMETRY_SRID = 4326
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,7 +77,7 @@ WSGI_APPLICATION = 'test_terra_utils.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.postgresql',
         'USER': 'travis_ci_test',
         'NAME': 'travis_ci_test',
         'PASSWORD': 'travis_ci_test',
