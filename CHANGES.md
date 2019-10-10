@@ -1,3 +1,10 @@
+0.3.7  (XXXX-XX-XX)
+-------------------
+
+Update :
+
+* Add a TokenGenerator to allow authentication through URL
+
 0.3.5  (2019-09-24)
 -------------------
 
