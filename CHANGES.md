@@ -1,3 +1,10 @@
+0.3.8  (XXXX-XX-XX)
+-------------------
+
+Update :
+
+* Delete TokenGenerator since it was splitted to single package django-token-tools
+
 0.3.7  (2019-10-11)
 -------------------
 
