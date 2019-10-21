@@ -1,3 +1,10 @@
+0.3.9 (XXXX-XX-XX)
+-------------------
+
+New:
+
+* Extract from terra-back helper for X-Accel-Redirect, to serve medias
+
 0.3.8  (2019-10-15)
 -------------------
 
