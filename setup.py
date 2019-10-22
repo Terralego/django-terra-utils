@@ -38,6 +38,7 @@ setup(
         'django>=2.1,<3.0',
         'djangorestframework>=3.8',
         "django-url-filter>=0.3,<0.4",
+        "python-magic>=0.4",
         "coreapi",
         "coreschema",
         'psycopg2>=2.8',
