@@ -4,4 +4,4 @@
 
 https://django-terra-utils.readthedocs.io/en/latest/
 
-Helpers and default configuration endpoints for terralego frontend application.
+Helpers and default configuration endpoints for terralego application.
