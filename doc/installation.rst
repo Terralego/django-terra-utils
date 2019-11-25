@@ -15,7 +15,7 @@ From Pypi:
 
 ::
 
-    pip install xxxxxxxxxx-xxxxxxxxxxxx
+    pip install django-terra-utils
 
 From Github:
 
