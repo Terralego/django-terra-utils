@@ -20,6 +20,7 @@ Provide frontend required settings
 .. toctree::
 
    installation
+   docker-dev
    configuration
    use
    commands
