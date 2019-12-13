@@ -1,9 +1,11 @@
-0.3.10 (XXXX-XX-XX)
+0.3.10 (2019-12-13)
 -------------------
 
 Update:
 
 * Update documentation
+* Support django 3.0
+
 
 0.3.9 (2019-10-22)
 -------------------
