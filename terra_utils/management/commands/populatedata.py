@@ -63,8 +63,13 @@ class Command(BaseCommand):
                     app_config.module.__package__,
                     self.POPULATE_MODULE_NAME,
                     fn_name))
-            except ImportError:
-                logger.debug('Application {} has no'
+            except ImportError as e:
+                if 'populate' in str(e):
+                    logger.error('Application {} has no'
                              ' populate module'.format(app_name))
+                else:
+                    logger.error('Application {} has no'
+                             ' populate module'.format(app_name), exc_info=True)
+
 
         return available_modules
