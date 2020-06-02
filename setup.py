@@ -39,7 +39,7 @@ setup(
         'Framework :: Django :: 3.0',
     ],
     install_requires=[
-        'django>=2.2',
+        'django>=2.2,<3.1',
         'djangorestframework',
         "django-url-filter>=0.3",
         "python-magic>=0.4",
