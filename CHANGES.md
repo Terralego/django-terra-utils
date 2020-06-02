@@ -1,7 +1,7 @@
 0.3.11.dev0      (XXXX-XX-XX)
 -----------------------------
 
-*
+* settings endpoint should be served by terra-accounts
 
 
 0.3.10 (2019-12-13)
