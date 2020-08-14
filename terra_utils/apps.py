@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class CoreConfig(AppConfig):
-    name = 'core'
+class TerraUtilsConfig(AppConfig):
+    name = 'terra_utils'
